@@ -24,7 +24,7 @@ const strip = neopixel.create(DigitalPin.P1, stripLength, NeoPixelMode.RGB);
 basic.forever(function () {
     // loop through the hasColor array
     for (let i = 0; i < hasColor.length; i++) {
-        // Retrieve the count from the hasColor array at index i
+        // retrieve the count from the hasColor array at index i
         const count = hasColor[i];
         const middle = 8;
         // retrieve a color from the colorArray
